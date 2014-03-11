@@ -1,0 +1,1 @@
+An alternative solution for EGOTableViewPullRefresh created by Luke
