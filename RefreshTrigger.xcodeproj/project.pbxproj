@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A16DE1A118CEAF3F00A0C184 /* SLRefreshTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = A16DE19D18CEAF3F00A0C184 /* SLRefreshTrigger.m */; };
+		A16DE1A218CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A16DE19F18CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.m */; };
+		A16DE1A318CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A16DE1A018CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.xib */; };
+		A1CA7F9F18CDCC0D00450F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7F9E18CDCC0D00450F59 /* Foundation.framework */; };
+		A1CA7FA118CDCC0D00450F59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7FA018CDCC0D00450F59 /* CoreGraphics.framework */; };
+		A1CA7FA318CDCC0D00450F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7FA218CDCC0D00450F59 /* UIKit.framework */; };
+		A1CA7FA918CDCC0D00450F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CA7FA718CDCC0D00450F59 /* InfoPlist.strings */; };
+		A1CA7FAB18CDCC0D00450F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA7FAA18CDCC0D00450F59 /* main.m */; };
+		A1CA7FAF18CDCC0D00450F59 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA7FAE18CDCC0D00450F59 /* SWAppDelegate.m */; };
+		A1CA7FB218CDCC0D00450F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CA7FB018CDCC0D00450F59 /* Main.storyboard */; };
+		A1CA7FB518CDCC0D00450F59 /* SWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA7FB418CDCC0D00450F59 /* SWViewController.m */; };
+		A1CA7FB718CDCC0D00450F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CA7FB618CDCC0D00450F59 /* Images.xcassets */; };
+		A1CA7FBE18CDCC0E00450F59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7FBD18CDCC0E00450F59 /* XCTest.framework */; };
+		A1CA7FBF18CDCC0E00450F59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7F9E18CDCC0D00450F59 /* Foundation.framework */; };
+		A1CA7FC018CDCC0E00450F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CA7FA218CDCC0D00450F59 /* UIKit.framework */; };
+		A1CA7FC818CDCC0E00450F59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CA7FC618CDCC0E00450F59 /* InfoPlist.strings */; };
+		A1CA7FCA18CDCC0E00450F59 /* RefreshTriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CA7FC918CDCC0E00450F59 /* RefreshTriggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1CA7FC118CDCC0E00450F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1CA7F9318CDCC0D00450F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1CA7F9A18CDCC0D00450F59;
+			remoteInfo = RefreshTrigger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A16DE19C18CEAF3F00A0C184 /* SLRefreshTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRefreshTrigger.h; sourceTree = "<group>"; };
+		A16DE19D18CEAF3F00A0C184 /* SLRefreshTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRefreshTrigger.m; sourceTree = "<group>"; };
+		A16DE19E18CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRefreshTriggerIndicatorView.h; sourceTree = "<group>"; };
+		A16DE19F18CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRefreshTriggerIndicatorView.m; sourceTree = "<group>"; };
+		A16DE1A018CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLRefreshTriggerIndicatorView.xib; sourceTree = "<group>"; };
+		A1CA7F9B18CDCC0D00450F59 /* RefreshTrigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshTrigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CA7F9E18CDCC0D00450F59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1CA7FA018CDCC0D00450F59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1CA7FA218CDCC0D00450F59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1CA7FA618CDCC0D00450F59 /* RefreshTrigger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshTrigger-Info.plist"; sourceTree = "<group>"; };
+		A1CA7FA818CDCC0D00450F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1CA7FAA18CDCC0D00450F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1CA7FAC18CDCC0D00450F59 /* RefreshTrigger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RefreshTrigger-Prefix.pch"; sourceTree = "<group>"; };
+		A1CA7FAD18CDCC0D00450F59 /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		A1CA7FAE18CDCC0D00450F59 /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		A1CA7FB118CDCC0D00450F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1CA7FB318CDCC0D00450F59 /* SWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWViewController.h; sourceTree = "<group>"; };
+		A1CA7FB418CDCC0D00450F59 /* SWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWViewController.m; sourceTree = "<group>"; };
+		A1CA7FB618CDCC0D00450F59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1CA7FBC18CDCC0E00450F59 /* RefreshTriggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshTriggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CA7FBD18CDCC0E00450F59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1CA7FC518CDCC0E00450F59 /* RefreshTriggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshTriggerTests-Info.plist"; sourceTree = "<group>"; };
+		A1CA7FC718CDCC0E00450F59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1CA7FC918CDCC0E00450F59 /* RefreshTriggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTriggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CA7F9818CDCC0D00450F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA7FA118CDCC0D00450F59 /* CoreGraphics.framework in Frameworks */,
+				A1CA7FA318CDCC0D00450F59 /* UIKit.framework in Frameworks */,
+				A1CA7F9F18CDCC0D00450F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA7FB918CDCC0E00450F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA7FBE18CDCC0E00450F59 /* XCTest.framework in Frameworks */,
+				A1CA7FC018CDCC0E00450F59 /* UIKit.framework in Frameworks */,
+				A1CA7FBF18CDCC0E00450F59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A16DE19B18CEAF3F00A0C184 /* SLRefreshTrigger */ = {
+			isa = PBXGroup;
+			children = (
+				A16DE19C18CEAF3F00A0C184 /* SLRefreshTrigger.h */,
+				A16DE19D18CEAF3F00A0C184 /* SLRefreshTrigger.m */,
+				A16DE19E18CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.h */,
+				A16DE19F18CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.m */,
+				A16DE1A018CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.xib */,
+			);
+			path = SLRefreshTrigger;
+			sourceTree = "<group>";
+		};
+		A1CA7F9218CDCC0D00450F59 = {
+			isa = PBXGroup;
+			children = (
+				A16DE19B18CEAF3F00A0C184 /* SLRefreshTrigger */,
+				A1CA7FA418CDCC0D00450F59 /* RefreshTrigger */,
+				A1CA7FC318CDCC0E00450F59 /* RefreshTriggerTests */,
+				A1CA7F9D18CDCC0D00450F59 /* Frameworks */,
+				A1CA7F9C18CDCC0D00450F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CA7F9C18CDCC0D00450F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7F9B18CDCC0D00450F59 /* RefreshTrigger.app */,
+				A1CA7FBC18CDCC0E00450F59 /* RefreshTriggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CA7F9D18CDCC0D00450F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7F9E18CDCC0D00450F59 /* Foundation.framework */,
+				A1CA7FA018CDCC0D00450F59 /* CoreGraphics.framework */,
+				A1CA7FA218CDCC0D00450F59 /* UIKit.framework */,
+				A1CA7FBD18CDCC0E00450F59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CA7FA418CDCC0D00450F59 /* RefreshTrigger */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7FAD18CDCC0D00450F59 /* SWAppDelegate.h */,
+				A1CA7FAE18CDCC0D00450F59 /* SWAppDelegate.m */,
+				A1CA7FB018CDCC0D00450F59 /* Main.storyboard */,
+				A1CA7FB318CDCC0D00450F59 /* SWViewController.h */,
+				A1CA7FB418CDCC0D00450F59 /* SWViewController.m */,
+				A1CA7FB618CDCC0D00450F59 /* Images.xcassets */,
+				A1CA7FA518CDCC0D00450F59 /* Supporting Files */,
+			);
+			path = RefreshTrigger;
+			sourceTree = "<group>";
+		};
+		A1CA7FA518CDCC0D00450F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7FA618CDCC0D00450F59 /* RefreshTrigger-Info.plist */,
+				A1CA7FA718CDCC0D00450F59 /* InfoPlist.strings */,
+				A1CA7FAA18CDCC0D00450F59 /* main.m */,
+				A1CA7FAC18CDCC0D00450F59 /* RefreshTrigger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1CA7FC318CDCC0E00450F59 /* RefreshTriggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7FC918CDCC0E00450F59 /* RefreshTriggerTests.m */,
+				A1CA7FC418CDCC0E00450F59 /* Supporting Files */,
+			);
+			path = RefreshTriggerTests;
+			sourceTree = "<group>";
+		};
+		A1CA7FC418CDCC0E00450F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CA7FC518CDCC0E00450F59 /* RefreshTriggerTests-Info.plist */,
+				A1CA7FC618CDCC0E00450F59 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1CA7F9A18CDCC0D00450F59 /* RefreshTrigger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CA7FCD18CDCC0E00450F59 /* Build configuration list for PBXNativeTarget "RefreshTrigger" */;
+			buildPhases = (
+				A1CA7F9718CDCC0D00450F59 /* Sources */,
+				A1CA7F9818CDCC0D00450F59 /* Frameworks */,
+				A1CA7F9918CDCC0D00450F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefreshTrigger;
+			productName = RefreshTrigger;
+			productReference = A1CA7F9B18CDCC0D00450F59 /* RefreshTrigger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1CA7FBB18CDCC0E00450F59 /* RefreshTriggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CA7FD018CDCC0E00450F59 /* Build configuration list for PBXNativeTarget "RefreshTriggerTests" */;
+			buildPhases = (
+				A1CA7FB818CDCC0E00450F59 /* Sources */,
+				A1CA7FB918CDCC0E00450F59 /* Frameworks */,
+				A1CA7FBA18CDCC0E00450F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1CA7FC218CDCC0E00450F59 /* PBXTargetDependency */,
+			);
+			name = RefreshTriggerTests;
+			productName = RefreshTriggerTests;
+			productReference = A1CA7FBC18CDCC0E00450F59 /* RefreshTriggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CA7F9318CDCC0D00450F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = work.sword;
+				TargetAttributes = {
+					A1CA7FBB18CDCC0E00450F59 = {
+						TestTargetID = A1CA7F9A18CDCC0D00450F59;
+					};
+				};
+			};
+			buildConfigurationList = A1CA7F9618CDCC0D00450F59 /* Build configuration list for PBXProject "RefreshTrigger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1CA7F9218CDCC0D00450F59;
+			productRefGroup = A1CA7F9C18CDCC0D00450F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CA7F9A18CDCC0D00450F59 /* RefreshTrigger */,
+				A1CA7FBB18CDCC0E00450F59 /* RefreshTriggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CA7F9918CDCC0D00450F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16DE1A318CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.xib in Resources */,
+				A1CA7FB718CDCC0D00450F59 /* Images.xcassets in Resources */,
+				A1CA7FA918CDCC0D00450F59 /* InfoPlist.strings in Resources */,
+				A1CA7FB218CDCC0D00450F59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA7FBA18CDCC0E00450F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA7FC818CDCC0E00450F59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CA7F9718CDCC0D00450F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16DE1A218CEAF3F00A0C184 /* SLRefreshTriggerIndicatorView.m in Sources */,
+				A1CA7FB518CDCC0D00450F59 /* SWViewController.m in Sources */,
+				A1CA7FAF18CDCC0D00450F59 /* SWAppDelegate.m in Sources */,
+				A1CA7FAB18CDCC0D00450F59 /* main.m in Sources */,
+				A16DE1A118CEAF3F00A0C184 /* SLRefreshTrigger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CA7FB818CDCC0E00450F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CA7FCA18CDCC0E00450F59 /* RefreshTriggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1CA7FC218CDCC0E00450F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1CA7F9A18CDCC0D00450F59 /* RefreshTrigger */;
+			targetProxy = A1CA7FC118CDCC0E00450F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1CA7FA718CDCC0D00450F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CA7FA818CDCC0D00450F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1CA7FB018CDCC0D00450F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CA7FB118CDCC0D00450F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1CA7FC618CDCC0E00450F59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CA7FC718CDCC0E00450F59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1CA7FCB18CDCC0E00450F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1CA7FCC18CDCC0E00450F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CA7FCE18CDCC0E00450F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshTrigger/RefreshTrigger-Prefix.pch";
+				INFOPLIST_FILE = "RefreshTrigger/RefreshTrigger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1CA7FCF18CDCC0E00450F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshTrigger/RefreshTrigger-Prefix.pch";
+				INFOPLIST_FILE = "RefreshTrigger/RefreshTrigger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1CA7FD118CDCC0E00450F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefreshTrigger.app/RefreshTrigger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshTrigger/RefreshTrigger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RefreshTriggerTests/RefreshTriggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1CA7FD218CDCC0E00450F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefreshTrigger.app/RefreshTrigger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefreshTrigger/RefreshTrigger-Prefix.pch";
+				INFOPLIST_FILE = "RefreshTriggerTests/RefreshTriggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CA7F9618CDCC0D00450F59 /* Build configuration list for PBXProject "RefreshTrigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA7FCB18CDCC0E00450F59 /* Debug */,
+				A1CA7FCC18CDCC0E00450F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CA7FCD18CDCC0E00450F59 /* Build configuration list for PBXNativeTarget "RefreshTrigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA7FCE18CDCC0E00450F59 /* Debug */,
+				A1CA7FCF18CDCC0E00450F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CA7FD018CDCC0E00450F59 /* Build configuration list for PBXNativeTarget "RefreshTriggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CA7FD118CDCC0E00450F59 /* Debug */,
+				A1CA7FD218CDCC0E00450F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CA7F9318CDCC0D00450F59 /* Project object */;
+}
