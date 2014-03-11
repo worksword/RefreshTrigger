@@ -34,7 +34,7 @@
         
         if (self.indicatorViewStyle == SLRefreshTriggerIndicatorViewStyle_Scrollable) {
             CGRect frame = self.indicatorView.frame;
-            frame.origin.y = -frame.size.height;
+            frame.origin.y = self.scrollView.frame.origin.y - frame.size.height;
             self.indicatorView.frame = frame;
         }
         [parentView insertSubview:self.indicatorView belowSubview:scrollView];
