@@ -53,7 +53,7 @@
         
         if (self.indicatorViewStyle == SLRefreshTriggerIndicatorViewStyle_Scrollable) {
             CGRect frame = self.indicatorView.frame;
-            frame.origin.y = -frame.size.height;
+            frame.origin.y = self.scrollView.frame.origin.y - frame.size.height;
             self.indicatorView.frame = frame;
         }
     }
@@ -77,16 +77,16 @@
     if (self.refreshing) {
         if (self.indicatorViewStyle == SLRefreshTriggerIndicatorViewStyle_Scrollable) {
             if (-point.y <= frame.size.height) {
-                frame.origin.y = -(frame.size.height + point.y);
+                frame.origin.y = self.scrollView.frame.origin.y - (frame.size.height + point.y);
                 self.indicatorView.frame = frame;
-            } else if (frame.origin.y != 0) {
-                frame.origin.y = 0;
+            } else if (frame.origin.y != self.scrollView.frame.origin.y) {
+                frame.origin.y = self.scrollView.frame.origin.y;
                 self.indicatorView.frame = frame;
             }
         }
     } else {
         if (self.indicatorViewStyle == SLRefreshTriggerIndicatorViewStyle_Scrollable) {
-            frame.origin.y = -(frame.size.height + point.y);
+            frame.origin.y = self.scrollView.frame.origin.y - (frame.size.height + point.y);
             self.indicatorView.frame = frame;
         }
         
@@ -120,7 +120,7 @@
         
         if (self.indicatorViewStyle == SLRefreshTriggerIndicatorViewStyle_Scrollable) {
             CGRect frame = self.indicatorView.frame;
-            frame.origin.y = -frame.size.height;
+            frame.origin.y = self.scrollView.frame.origin.y - frame.size.height;
             self.indicatorView.frame = frame;
         }
         
