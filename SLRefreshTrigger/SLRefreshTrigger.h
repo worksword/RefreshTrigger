@@ -35,8 +35,15 @@ typedef enum {
 
 @interface SLRefreshTrigger : NSObject
 
+// You don't need setup indicatorView by yourself, for example, when you use UIScrollView
 - (id)initWithScrollView:(UIScrollView *)scrollView scrollParentView:(UIView *)parentView indicatorView:(UIView<SLRefreshTriggerIndicatorDelegate> *)indicatorView indicatorViewStyle:(SLRefreshTriggerIndicatorViewStyle)indicatorViewStyle andDelegate:(id<SLRefreshTriggerDelegate>)delegate;
 
+// You need setup indicatorView by yourself, for example, when you use UITableView
+- (id)initWithScrollView:(UIScrollView *)scrollView indicatorView:(UIView<SLRefreshTriggerIndicatorDelegate> *)indicatorView indicatorViewStyle:(SLRefreshTriggerIndicatorViewStyle)indicatorViewStyle andDelegate:(id<SLRefreshTriggerDelegate>)delegate;
+// you don't need invoke this method when you use the first init method
+- (void)onScrollViewDidScroll;
+
+// finish your refreshing
 - (void)finish;
 
 @end
